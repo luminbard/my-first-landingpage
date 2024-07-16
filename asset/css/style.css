@@ -721,6 +721,28 @@
     margin-top: 24px;
 }
 
+/*------------------     last -----------------------------*/
+.last-para{
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-para-text{
+    text-align: center;
+}
+
+.last-para-text span{
+    width: 181px;
+    height: 14.82px;
+    font-family: "Noto Sans JP";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17.38px;
+    color:white;
+}
+
 @media (max-width:1100px){
     /* -----------------      second      -------------*/
     .second-para{
