@@ -25,5 +25,22 @@ function setBodyHeight(height) {
     document.body.style.height = height + 'px';
 }
 
+
+document.querySelectorAll('.faq-item').forEach(item => {
+    const btn = item.querySelector('.toggle-btn');
+    const answer = item.querySelector('.faq-answer');
+    
+    btn.addEventListener('click', () => {
+        const isVisible = answer.style.display === 'flex';
+        
+        if (!isVisible) {
+            answer.style.display = 'flex';
+            btn.classList.add('rotate');
+        } else {
+            answer.style.display = 'none';
+            btn.classList.remove('rotate');
+        }
+    });
+});
 // Example usage
 //setBodyHeight(1000); 
