@@ -1,7 +1,21 @@
 @font-face {
     font-family: 'Noto Sans';
-    src: url('./../fonts/NotoSans-Regular.ttf') format('truetype');
-    font-weight: normal;
+    src: url('./../fonts/NotoSansJP-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Gothic';
+    src: url('./../fonts/ZenKakuGothicNew-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hanunoo';
+    src: url('./../fonts/NotoSansHanunoo-Regular.ttf') format('truetype');
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -34,7 +48,14 @@
 .full-container{
     width: 100%;
     margin: auto;
-    max-width: 1440px;
+}
+
+#top-link{
+    position: fixed; 
+    top: 667px; 
+    right: 37px; 
+    z-index: 999; 
+    cursor: pointer; 
 }
 
 
@@ -78,11 +99,11 @@
     margin-right: -9px;
     padding-top: 29px;
 }
-.nav-link span{
+.nav-link a span{
     color: #333333;
     font-size: 14px;
-    font-weight: 500;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans';
+    font-weight: 400;
     padding-right: 64px;
 }
 #sign-up{
@@ -99,10 +120,10 @@
     width: 144px;
     height: 16px;
     font-size: 16px;
+    font-weight: 700;
     line-height: 16px;
     gap: 8px;
-    font-weight: 700;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans';
 }
 
 .hamburger {
@@ -131,7 +152,7 @@
 }
 
 .first-step-text{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans';
     font-weight: 400;
     font-size: 36px;
     line-height: 49.03px;
@@ -151,7 +172,7 @@
 }
 
 .seminar-text{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans Hanunoo';
     font-weight: 500;
     font-size: 54px;
     line-height: 73.55px;
@@ -167,17 +188,17 @@
 }
 
 .designer-tip p{
-    font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
     text-align: center;
-    width: 440px;
+    width: 438px;
     color: #333333;
+   font-family: "Noto Sans";
 }
 
 .designer-tip p span { 
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans';
     font-weight: 700;
     color: #0FABB5;
 }
@@ -203,14 +224,14 @@
 
 .triangle {
     position: absolute;
-    bottom: -20px; /* Adjust this value to position the triangle correctly */
+    bottom: -34px; /* Adjust this value to position the triangle correctly */
     left: 50%;
     transform: translateX(-50%);
     width: 0;
     height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid #E3FAFF;/* Same color as the top section */
+    border-left: 23px solid transparent;
+    border-right: 23px solid transparent;
+    border-top: 34px solid #E3FAFF;/* Same color as the top section */
 }
 
 .second-container{
@@ -236,17 +257,18 @@
 
 .second-item{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 16px;
+    height: 42px;
 }
 
 .second-item span{
-    margin-left: 8px;
+    margin-left: 8.78px;
     color:#333333;
-    font-family: "Noto Sans JP 400";
     line-height: 20.8px;
     font-weight: 400;
     font-size: 16px;
+    font-family: "Noto Sans";
 }
 
 .second-para-text{
@@ -261,7 +283,7 @@
  .second-para-text span{
     margin-top: 51px;
     color:white;
-    font-family: "Noto Sans";
+    font-family: "Noto Sans Gothic";
     font-weight: 700;
     font-size: 24px;
     line-height: 32.69px;
@@ -304,12 +326,12 @@
     margin-top: 56px;
 }
 
-.third-rect-container{
+.rect-container{
     display: flex;
     justify-content: center;
 }
 
-.third-rect{
+.rect{
     background-color: #0FABB5;
     width: 60px;
     height: 4px;
@@ -481,8 +503,7 @@
 
 .heading p{
     color: #333333;
-    font-family: "Noto Sans";
-    font-weight: 700;
+    font-family: "Noto Sans JP 700";
     font-size: 24px;
     line-height: 38.4px;
     margin-top: 0px;
@@ -505,20 +526,20 @@
 .content-row-item{
     background-color: #0FABB5;
     color: white;
-    font-family: "Noto Sans";
-    font-weight: 500;
+    font-family: "Noto Sans JP 500";
     line-height: 21.79px;
     font-size: 16px;
     width: 48px;
     height: 26px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-row-text{
     margin-left: 10px;
     color:#333333;
-    font-family: "Noto Sans";
-    font-weight: 400;
+    font-family: "Noto Sans JP 400";
     line-height: 21.79px;
     font-size: 16px;
     align-items: flex-start;
@@ -528,8 +549,7 @@
 
 .content-span-text span{
     color: #333333;
-    font-family: "Noto Sans";
-    font-weight: 400;
+    font-family: "Noto Sans JP 400";
     font-size: 16px;
     line-height: 28.8px;
 }
@@ -591,8 +611,7 @@
 }
 
 .fifth-content-text-heading span{
-    font-family: "Noto Sans";
-    font-weight: 700;
+    font-family: "Noto Sans JP 700";
     font-size: 22px;
     line-height: 29.96px;
     color: #333333;
@@ -662,6 +681,23 @@
     display: flex;
     align-items: center;
 }
+
+.faq-question-left span{
+    font-family: "Noto Sans JP 400";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #333333;
+}
+
+.faq-answer span{
+    font-family: "Noto Sans JP 400";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #333333;
+}
+
 .faq-answer{
     display: none;
     margin-top: 15px;
@@ -689,29 +725,27 @@
     color: white;
     border-radius: 50%;
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-right: 30px;
     font-weight: 400;
     font-family: "Noto Sans";
     font-size: 36px;
-    line-height: 61.2px;
 }
 
+
 .faq-icon-a {
-    width: 60px;
-    height: 60px;
+    width: 56px;
+    height: 56px;
     background-color: white;
+    border: #0FABB5 2px solid;
     color:#0FABB5;
     border-radius: 50%;
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-right: 30px;
     font-weight: 400;
     font-family: "Noto Sans";
     font-size: 36px;
-    line-height: 61.2px; 
     flex-shrink: 0;
 }
 
@@ -727,6 +761,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #0FABB5;
 }
 
 .last-para-text{
@@ -735,7 +770,6 @@
 
 .last-para-text span{
     width: 181px;
-    height: 14.82px;
     font-family: "Noto Sans JP";
     font-weight: 400;
     font-size: 12px;
@@ -973,7 +1007,6 @@
         width: 375px;
         height: 340px;
         margin-top: 0px;
-        background-image: url("./../img/map-sp.svg");
     }
 
 
@@ -1053,14 +1086,17 @@
         height: 36px;
         margin-right: 9px;
         font-weight: 700;
+        align-items: center;
         font-family: "Noto Sans JP";
         font-size: 20px;
         line-height: 28.96px;
     }
 
     .faq-icon-a {
-        width: 36px;
-        height: 36px;
+        width: 34px;
+        height: 34px;
+        align-items: center;
+        border: #0FABB5 solid 1px;
         margin-right: 9px;
         font-weight: 700;
         font-family: "Noto Sans JP";
@@ -1097,13 +1133,13 @@
         height: 64px;
     }
     
-    .nav-link span{
+    .nav-link a{
         padding: 0px;
         margin:0px;
     }
-    #sign-up.active{
-        display: block;
-        margin: 0px;
+    #sign-up{
+        margin-top: -123px;
+        margin-right: 0px;
     }
 
     .nav-link.active {
@@ -1115,7 +1151,7 @@
 
     .right-nav.active{
         display: grid;
-        height: 658px;
+        height: 100%;
         justify-content: center;
     }
     #logo{
@@ -1144,11 +1180,16 @@
         -webkit-transform: rotate(45deg) translate(-7px, -7px);
         transform: rotate(45deg) translate(-7px, -7px);
     }
-    .nav-link span{
-        padding-top: 64px;
-        padding-right: 0px;
+    .nav-link a{
+        padding-top: 64px;  
     }
 
+    .nav-link a span{
+        padding-right: 0px;
+    }
+    #top-link.hide{
+        display: none;
+    }
     .first-step{
         width: 221px;
         height: 54px;
@@ -1164,7 +1205,7 @@
         font-size: 28px;
         line-height: 28px;
         counter-reset: black;
-        font-family: "Noto Sans JP";
+        font-family: "Noto Sans";
         padding-left: 13px;
     }
 
@@ -1264,7 +1305,7 @@
         font-size: 28px;
         line-height: 28px;
         counter-reset: black;
-        font-family: "Noto Sans JP";
+        font-family: "Noto Sans";
         padding-left: 13px;
     }
 
