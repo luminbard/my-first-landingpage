@@ -190,6 +190,7 @@
     font-size: 54px;
     line-height: 73.55px;
 }
+
 .designer-tip{
     width: 100%;
     height: 186px;
@@ -274,9 +275,9 @@
     margin-left: 8.78px;
     color:#333333;
     line-height: 20.8px;
-    font-weight: 400;
+    font-weight: 540;
     font-size: 16px;
-    font-family: "Noto Sans";
+    font-family: "Inter";
 }
 
 .second-para-text{
@@ -417,12 +418,12 @@
 }
 
 #apply span{
-    vertical-align: middle;
     margin-left: 0px;
     text-align: center;
 }
 #apply img{
-    vertical-align: middle;
+    height: 16px;
+    width: 20px;
     margin-right: 2px;
 }
 
@@ -454,7 +455,6 @@
 }
 
 .big-heading{
-    margin-top: 2px;
     text-align: center;
 }
 
@@ -474,7 +474,7 @@
 
 .fourth-item{
     width: 1042px;
-    height: 406 px;
+    height: 406px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -547,7 +547,8 @@
 
 .content-span-text span{
     color: #333333;
-    font-family: "Noto Sans JP 400";
+    font-family: "Inter";
+    font-weight: 540;
     font-size: 16px;
     line-height: 28.8px;
 }
@@ -609,6 +610,10 @@
     font-size: 22px;
     line-height: 29.96px;
     color: #333333;
+}
+
+.hide-row{
+    display: none;
 }
 
 .fifth-content-row{
@@ -748,12 +753,12 @@
     height: 88px;
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #0FABB5;
 }
 
 .last-para-text{
     text-align: center;
+    margin-top: 36.65px;
 }
 
 .last-para-text span{
@@ -794,12 +799,13 @@
     }
 
     .second-text{
-       width: 335px;
+       width: 334px;
        height: 359px;
     }
 
     .second-text-container{
        margin-top: 33px;
+       margin-left: 14px;
     }
 
     .second-item{
@@ -808,13 +814,19 @@
         margin-bottom: 24px;
     }
 
+    .img-check{
+        width: 17.1px;
+        height: 19px;
+    }
+
     .second-item span{
         margin-left: 8px;
         color:#333333;
         font-family: "Inter";
         line-height: 19.6px;
-        font-weight: 400;
+        font-weight: 540;
         font-size: 14px;
+        width: 278px;
     }
 
     .second-text-container{
@@ -897,13 +909,13 @@
     /* -----------------------------       fourth ---------------------*/
 
     .fourth-para{
-        height: 1589.41px;
+        height: 1652.41px;
         display: flex;
         justify-content: center;
     }
 
     .fourth-container{
-        margin-top: 64px;
+        margin-top: 127px;
         width: 375px;
     }
 
@@ -917,12 +929,15 @@
 
     .fourth-item{
         width: 330px;
-        height: 657px;
+        height: 653px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
+    #second-fourth-item{
+        height: 630px;
+    }
     .fourth-item-container{
         width: 294px;
         height: 591px;
@@ -1024,6 +1039,11 @@
         font-size: 18px;
         line-height: 24.52px;
         color: #333333;
+    }
+
+    .hide-row{
+        display: block;
+        margin-bottom: -15px;
     }
 
     .fifth-content > div:nth-child(1) {
@@ -1266,6 +1286,7 @@
     
     .third-para-text{
         height: 236px;
+        background-image: url("./../img/anyone-background-sp.svg");
     }
 
     .third-para-text-container{
@@ -1293,7 +1314,7 @@
 
 
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
     .first-para{
         width: 100%;
         height: 700px;
