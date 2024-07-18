@@ -1,8 +1,40 @@
 body{
     margin:0px;
     box-sizing: border-box;
+    color: #333333;
 }
 
 a{
     text-decoration: none;
 }
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+
+.justify-center {
+    justify-content: center;
+}
+
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+
+.items-center {
+    align-items: center;
+}
+

@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('./../fonts/NotoSansJP-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans new';
+    src: url('./../fonts/Noto-Sans-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Gothic';
+    src: url('./../fonts/ZenKakuGothicNew-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hanunoo';
+    src: url('./../fonts/NotoSansHanunoo-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans JP 400';
+    src: url('./../fonts/Noto\ Sans\ JP\ 400.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans JP 500';
+    src: url('./../fonts/Noto\ Sans\ JP\ Medium\ 500.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./../fonts/Inter-Regular.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans JP 700';
+    src: url('./../fonts/Noto\ Sans\ JP\ Bold\ 700.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
