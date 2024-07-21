@@ -1,96 +1,58 @@
-@media (max-width:1100px){
+@media (min-width: 601px) and (max-width:1100px){
     /* -----------------      second      -------------*/
-
-    .second-para{
-       height: 605px;
+    .triangle{
+        bottom:-28px;
+        border-top: 28px solid #E3FAFF;
+        border-left: 18px solid transparent;
+        border-right: 18px solid transparent;
     }
 
     .second-container{
-       display: block;
-       margin: auto;
-       margin-top: 29px;
-       height: 543px;
-       width: 335px;
+        width: 80%;
     }
 
     #second-back{
-       background-image: url("./../img/second-para-sp-background.svg");
-       width: 335px;
-       height: 184px;
-    }
-
-    .triangle {
-        bottom: -23px; /* Adjust this value to position the triangle correctly */
-        border-left: 13px solid transparent;
-        border-right: 13px solid transparent;
-        border-top: 23px solid #E3FAFF;/* Same color as the top section */
+        width: 35%;
+        object-fit: cover;
     }
 
     .second-text{
-       width: 334px;
-       height: 359px;
+        width: 65%;
     }
 
     .second-text-container{
-       margin-top: 33px;
-       margin-left: 14px;
-    }
-
-    .second-item{
-        display: flex;
-        align-items: center;
-        margin-bottom: 24px;
-    }
-
-    .img-check{
-        width: 17.1px;
-        height: 19px;
+        margin-left: 28px;
+        margin-right: 36px;
     }
 
     .second-item span{
-        margin-left: 8px;
-        font-family: "Inter";
-        line-height: 19.6px;
-        font-weight: 540;
         font-size: 14px;
-        width: 278px;
     }
 
-    .second-text-container{
-        margin-left: 12px;
-        margin-right: 12px;
+    .img-check{
+        width: 20px;
+        height: 23px;
     }
-
-    .second-para-text span{
-        margin-top: 36px;
-        color:white;
-        font-family: "Noto Sans JP 700";
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 27px;
-        width: 204px;
-    }
-    
     /* -----------------      third     -------------*/
 
     .third-para{
-        height: 1379px;
+        height: 1679px;
     }
 
     .third-container{
         margin-top: 64px;
-        width: 336px;
+        width: 80%;
         height: 1251px;
     }
     
     .third-heading{
         margin-top: 10px;
-        display: flex;
-        justify-content: center;
     }
     
     .third-img{
         width: 100%;
+        height: 320px;
+        object-fit: cover;
     }
     
     .third-content{
@@ -132,53 +94,59 @@
     }
 
     /* -----------------------------       fourth ---------------------*/
-
+    
     .fourth-para{
         height: 1652.41px;
-        display: flex;
-        justify-content: center;
     }
 
     .fourth-container{
         margin-top: 127px;
-        width: 375px;
+        width: 100%
     }
 
     .fourth-content{
+        margin: auto;
         margin-top:55.41px;
-        width: 330px;
+        width: 79%;
         height: 1331px;
         padding-left: 20.5px;
         padding-right: 20.5px;
     }
 
     .fourth-item{
-        width: 330px;
+        width: 100%;
         height: 653px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    #second-fourth-item{
-        height: 630px;
-    }
+   
     .fourth-item-container{
-        width: 294px;
+        width: 100%;
         height: 591px;
+        padding-left: 10%;
+        padding-right: 10%;
         display:block;
+        margin: auto;
     }
 
     .fourth-item-image{
-        width: 294px;
-        height: 217px;
+        width: 100%;
+        height: 267px;
+        object-fit: cover;
     }
 
+    #seo-image{
+        height: 297px;
+    }
+
+    
     .fourth-item-content{
         margin-left: 0px;
         margin-top: 24px;
-        width: 294px;
         height: 349px;
+        width: 100%;
     }
     
     .heading p{
@@ -190,11 +158,6 @@
 
     #second-fourth-item{
         margin-top: 40px;
-    }
-
-    .content-row{
-        display: flex;
-        margin-top: 10px;
     }
 
     .content-text{
@@ -220,134 +183,41 @@
         line-height: 25.2px;
         font-size: 14px;
     }
-
+   
     /* ---------------------- fifth ----------------------------------*/
 
-    .fifth-para{
-        height: 745px;
-    }
-
-    .fifth-container{
-        width: 375px;
-        height: 617px;
-    }
-
-    .fifth-content{
-        margin-top: 48px;
-        height: 516px;
-        width: 100%;
-        flex-direction: column;
-    }
-
     #image-map{
-        width: 375px;
-        height: 340px;
-        margin-top: 0px;
+        width: 60%;
+    }
+
+    .hide-row{
+        display: none;
     }
 
     .fifth-content-text-container{
-        width:335px;
-        display: flex;
-        justify-content: initial;
-        margin-top: 28px;
-        margin-left: 20px;
+        padding-left: 20px;
+        width: 40%;
     }
 
-    .fifth-content-text{
-        height: 148px;
-        width: 335px;
-    }
 
     .fifth-content-text-heading span{
         font-size: 18px;
-        line-height: 24.52px;
     }
 
     .hide-row{
         display: block;
-        margin-bottom: -15px;
+        margin-bottom: -20px;
     }
 
-    .fifth-content > div:nth-child(1) {
-        order: 2;
-    }
-    
-    .fifth-content > img:nth-child(2) {
-        order: 1;
-    }
-
+   
     /*--------------------------  sixth ---------------------------------*/
 
-    .sixth-para{
-        padding-bottom: 64px;
-    }
-
-    .sixth-heading{
-        margin-top: 64px;
-    }
-
     .sixth-content{
-        margin-top: 48px;
-        width: 335px;
-        display: block;
-    }
-
-    #second-faq-item{
-        margin-top: 48px;
-    }
-
-    #third-faq-item{
-        margin-top: 48px;
-    }
-
-    .faq-question{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        cursor: pointer;
-        margin-top: 2px;
-    }
-  
-    .faq-answer{
-        margin-top: 24px;
-    }
-
-    .toggle-btn {
-        width: 16.97px;
-        height: 10.24px;
-        margin-left: 20px;
-    }
-
-    .faq-icon-q {
-        width: 36px;
-        height: 36px;
-        margin-right: 9px;
-        font-weight: 700;
-        align-items: center;
-        font-family: "Noto Sans JP";
-        font-size: 20px;
-        line-height: 28.96px;
-    }
-
-    .faq-icon-a {
-        width: 34px;
-        height: 34px;
-        align-items: center;
-        border: #0FABB5 solid 1px;
-        margin-right: 9px;
-        font-weight: 700;
-        font-family: "Noto Sans JP";
-        font-size: 20px;
-        line-height: 28.96px;
+       width:600px;
     }
 
     .faq-line{
-        width: 335px;
-        border: #878787 1px solid;
-    }
-
-    .change-row{
-        display: none;
+        width:600px;
     }
 
 }
@@ -437,38 +307,32 @@
     }
 
     .first-step{
-        width: 221px;
-        height: 54px;
-        margin-left: 20px;
+        width: 280px;
+        height: 74px;
+        margin-left: 80px;
         margin-top: 448px;
         background-color: white;
-        display: flex;
-        align-items: center;
     }
 
     .first-step-text{
         font-weight: 400;
-        font-size: 28px;
-        line-height: 28px;
+        font-size: 32px;
+        line-height: 32px;
         counter-reset: black;
         font-family: "Noto Sans";
-        padding-left: 13px;
+        padding-left: 18px;
     }
 
     .seminar{
-        width: 335px;
-        height: 63px;
+        width: 455px;
+        height: 83px;
         margin-top: 19px;
-        margin-left: 20px;
-        display: flex;
-        align-items: center;
+        margin-left: 80px;
         justify-content: unset; 
     }
 
     .seminar-text{
-        width: 298px;
-        height: 26px;
-        font-size: 22px;
+        font-size: 32px;
         font-family: "Noto Sans JP 500";
         font-weight: 500;
         line-height: 26.4px;
@@ -478,31 +342,10 @@
     .seminar-text > span {
         font-family: 'Noto Sans JP 500';
         font-weight: 500;
-        font-size: 22px;
+        font-size: 32px;
         line-height: 26.4px;
     }
 
-    .designer-tip{
-        width: 100%;
-        height: 159px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .designer-tip p{
-        font-family: 'Inter', sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 28.8px;
-        text-align: center;
-        width: 290px;   
-    }
-    
-    .designer-tip p span { 
-        font-family: 'Inter', sans-serif;
-        font-weight: 700;
-    }
 
    /*-------------------third-para-----------------------*/
     
@@ -532,32 +375,49 @@
         height: 64px;
     }
 
+    /*------------- fifth---------------------*/
+   
 }
 
-
-
-@media (max-width: 500px) {
+@media (max-width: 599px) {
     .first-para{
         width: 100%;
-        height: 700px;
-        background-image: url("./../img/first-background-responsive.svg");
+        height: 700px;  
         background-position: center;
     }
+
+    .designer-tip{
+        width: 100%;
+        height: 159px;;
+    }
+
+    .designer-tip p{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28.8px;
+        text-align: center;
+        width: 290px;   
+    }
+    
+    .designer-tip p span { 
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+    }
+
     .first-step{
         width: 221px;
         height: 54px;
         margin-left: 20px;
         margin-top: 448px;
         background-color: white;
-        display: flex;
-        align-items: center;
     }
 
     .first-step-text{
         font-weight: 400;
         font-size: 28px;
         line-height: 28px;
-        color: black;
+        counter-reset: black;
         font-family: "Noto Sans";
         padding-left: 13px;
     }
@@ -567,8 +427,6 @@
         height: 63px;
         margin-top: 19px;
         margin-left: 20px;
-        display: flex;
-        align-items: center;
         justify-content: unset; 
     }
 
@@ -582,4 +440,363 @@
         padding-left: 9px;
     }
 
+    .seminar-text > span {
+        font-family: 'Noto Sans JP 500';
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26.4px;
+    }
+    .sixth-para{
+        padding-bottom: 64px;
+    }
+
+    .sixth-heading{
+        margin-top: 64px;
+    }
+
+    .sixth-content{
+        margin-top: 48px;
+        width: 335px;
+        display: block;
+    }
+
+    #second-faq-item{
+        margin-top: 48px;
+    }
+
+    #third-faq-item{
+        margin-top: 48px;
+    }
+
+    .faq-question{
+        margin-top: 2px;
+    }
+  
+    .faq-answer{
+        margin-top: 24px;
+    }
+
+    .toggle-btn {
+        width: 16.97px;
+        height: 10.24px;
+        margin-left: 20px;
+    }
+
+    .faq-icon-q {
+        width: 36px;
+        height: 36px;
+        margin-right: 9px;
+        font-weight: 700;
+        align-items: center;
+        font-family: "Noto Sans JP";
+        font-size: 20px;
+        line-height: 28.96px;
+    }
+
+    .faq-icon-a {
+        width: 34px;
+        height: 34px;
+        align-items: center;
+        border: #0FABB5 solid 1px;
+        margin-right: 9px;
+        font-weight: 700;
+        font-family: "Noto Sans JP";
+        font-size: 20px;
+        line-height: 28.96px;
+    }
+
+    .faq-line{
+        width: 335px;
+        border: #878787 1px solid;
+    }
+
+    .change-row{
+        display: none;
+    }
+    .second-para{
+        height: 605px;
+     }
+ 
+     .second-container{
+        display: block;
+        margin: auto;
+        margin-top: 29px;
+        height: 543px;
+        width: 335px;
+     }
+ 
+     #second-back{
+        background-image: url("./../img/second-para-sp-background.svg");
+        width: 335px;
+        height: 184px;
+     }
+ 
+     .triangle {
+         bottom: -23px; /* Adjust this value to position the triangle correctly */
+         border-left: 13px solid transparent;
+         border-right: 13px solid transparent;
+         border-top: 23px solid #E3FAFF;/* Same color as the top section */
+     }
+ 
+     .second-text{
+        width: 334px;
+        height: 359px;
+     }
+ 
+     .second-text-container{
+        margin-top: 33px;
+        margin-left: 14px;
+     }
+ 
+     .second-item{
+         display: flex;
+         align-items: center;
+         margin-bottom: 24px;
+     }
+ 
+     .img-check{
+         width: 17.1px;
+         height: 19px;
+     }
+ 
+     .second-item span{
+         margin-left: 8px;
+         font-family: "Inter";
+         line-height: 19.6px;
+         font-weight: 540;
+         font-size: 14px;
+         width: 278px;
+     }
+ 
+     .second-text-container{
+         margin-left: 12px;
+         margin-right: 12px;
+     }
+     
+     #second-fourth-item{
+        height: 630px;
+    }
+
+     .second-para-text span{
+         margin-top: 36px;
+         color:white;
+         font-family: "Noto Sans JP 700";
+         font-weight: 700;
+         font-size: 18px;
+         line-height: 27px;
+         width: 204px;
+     }  
+
+    .third-para{
+        height: 1379px;
+    }
+
+    .third-container{
+        margin-top: 64px;
+        width: 336px;
+        height: 1251px;
+    }
+    
+    .third-heading{
+        margin-top: 10px;
+    }
+    
+    .third-img{
+        width: 300px;
+        height: 180px;
+    }
+
+    .third-container{
+        margin-top: 64px;
+        width: 80%;
+        height: 1251px;
+    }
+    
+    .third-heading{
+        margin-top: 10px;
+    }
+    
+    .small-content{
+        width: 300px;
+        margin:auto;
+        text-align: initial;
+    }
+    .third-content{
+        display: block !important;
+        margin-top: 48px;   
+    }
+    
+    #third-item-middle{
+        margin-left:0px ;
+        margin-right:0px;
+    }
+
+    .third-items{
+        margin-top: 60px;
+        text-align: center;  
+    }
+
+    .part-heading{
+        margin-top: 16px;
+    }
+
+    .part-heading span{
+        font-family: "Noto Sans";
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+    
+    .part-content{
+        margin-top: 16px;
+    }
+    
+    .part-content span{
+        font-family: "Noto Sans";
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 23.8px;
+    }
+
+    .fourth-para{
+        height: 1652.41px;
+    }
+
+    .fourth-container{
+        margin-top: 127px;
+        width: 375px;
+    }
+
+    .fourth-content{
+        margin-top:55.41px;
+        width: 330px;
+        height: 1331px;
+        padding-left: 20.5px;
+        padding-right: 20.5px;
+    }
+
+    .fourth-item{
+        width: 330px;
+        height: 653px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #second-fourth-item{
+        height: 630px;
+    }
+    .fourth-item-container{
+        width: 294px;
+        height: 591px;
+        display:block;
+    }
+
+    .fourth-item-image{
+        width: 294px;
+        height: 217px;
+    }
+
+    .fourth-item-content{
+        margin-left: 0px;
+        margin-top: 24px;
+        width: 294px;
+        height: 349px;
+    }
+    
+    .heading p{
+        font-family: "Noto Sans";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28.8px;
+    }
+
+    #second-fourth-item{
+        margin-top: 40px;
+    }
+
+    .content-text{
+        margin-top: 16px;
+    }
+    
+    .content-span-text span{
+        font-size: 14px;
+        line-height: 25.2px;
+    }
+
+    .content-span-text{
+        margin-bottom: 24px;
+    }
+
+    .content-row-item{  
+        line-height: 28.8px;
+        font-size: 16px;
+    }
+
+    .content-row-text{
+        margin-left: 10px;
+        line-height: 25.2px;
+        font-size: 14px;
+    }
+
+    .fifth-para{
+        height: 745px;
+    }
+
+    .fifth-container{
+        width: 375px;
+        height: 617px;
+    }
+
+    .fifth-content{
+        margin-top: 48px;
+        height: 516px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #image-map{
+        width: 375px;
+        height: 340px;
+        margin-top: 0px;
+    }
+
+    .fifth-content-text-container{
+        width:335px;
+        display: flex;
+        justify-content: initial;
+        margin-top: 28px;
+        margin-left: 20px;
+    }
+
+    .fifth-content-text{
+        text-align: initial;
+        height: 148px;
+        width: 335px;
+    }
+
+    .fifth-content-text-heading span{
+        font-size: 18px;
+        line-height: 24.52px;
+    }
+
+    .hide-row{
+        display: block;
+        margin-bottom: -15px;
+    }
+
+    .fifth-content > div:nth-child(1) {
+        order: 2;
+    }
+    
+    .fifth-content > img:nth-child(2) {
+        order: 1;
+    }
+
+}
+
+@media (max-width:375px){
+    .first-para{
+        background-image: url("./../img/first-background-responsive.svg");
+    }
 }

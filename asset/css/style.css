@@ -45,8 +45,7 @@
 
 .nav-link a span{
     font-size: 14px;
-    font-family: 'Noto Sans';
-    font-weight: 400;
+    font-family: 'Noto Sans JP 400';
     padding-right: 64px;
     color: #333333;
 }
@@ -114,6 +113,8 @@
     font-size: 54px;
     line-height: 73.55px;
     color: white;
+    padding-left: 27px;
+    width: 734px;
 }
 
 .seminar-text > span {
@@ -129,12 +130,11 @@
 }
 
 .designer-tip p{
-    font-weight: 400;
     font-size: 20px;
     line-height: 36px;
     text-align: center;
     width: 438px;
-    font-family: "Noto Sans";
+    font-family: "Noto Sans JP 400";
 }
 
 .designer-tip p span { 
@@ -194,9 +194,14 @@
 .second-item span{
     margin-left: 8.78px;
     line-height: 20.8px;
-    font-weight: 540;
     font-size: 16px;
+    font-family: "Noto Sans JP 400";
+}
+
+.second-item span span{
     font-family: "Inter";
+    font-weight: 600;
+    margin: 0px;
 }
 
 .second-para-text{
@@ -208,10 +213,15 @@
  .second-para-text span{
     margin-top: 51px;
     color:white;
-    font-family: "Noto Sans Gothic";
-    font-weight: 700;
+    font-family: "Noto Sans JP 500";
     font-size: 24px;
     line-height: 32.69px;
+    width: 419px;
+ }
+
+ .second-para-text span span{
+    font-family: "Noto Sans new";
+    font-weight: 600;
  }
 
 /*---------------- third----------------------*/
@@ -258,8 +268,7 @@
 }
 
 .part-heading span{
-    font-family: "Noto Sans";
-    font-weight: 700;
+    font-family: "Noto Sans JP 700";
     font-size: 16px;
     line-height: 21.79px;
 }
@@ -269,8 +278,7 @@
 }
 
 .part-content span{
-    font-family: "Noto Sans";
-    font-weight: 400;
+    font-family: "Noto Sans JP 400";
     font-size: 14px;
     line-height: 23.8px;
 }
@@ -294,8 +302,7 @@
 }
 
 .text span{
-    font-family: "Noto Sans";
-    font-weight: 700;
+    font-family: "Noto Sans JP 700";
     font-size: 24px;
     line-height: 40.8px;
 }
@@ -317,6 +324,11 @@
     margin-left: 0px;
     text-align: center;
 }
+
+#email-image{
+    transform: translateY(2px);
+}
+
 #apply img{
     height: 16px;
     width: 20px;
@@ -340,9 +352,8 @@
 
 .small-heading span{
     color:black;
-    font-family: "Noto Sans";
-    font-weight: 16px;
-    font-weight: 400;
+    font-family: "Noto Sans JP 400";
+    font-size: 16px;
     line-height: 21.79px;
     width:160px;
     height: 22px;
@@ -353,8 +364,7 @@
 }
 
 .big-heading span{
-    font-family: "Noto Sans";
-    font-weight: 700;
+    font-family: "Noto Sans JP 700";
     font-size: 24px;
     line-height: 32.69px;
     width: 96px;
@@ -401,6 +411,7 @@
 
 .content-row{
     margin-top: 10px;
+    align-items: center;
 }
 
 .content-text{
@@ -410,7 +421,7 @@
 .content-row-item{
     background-color: #0FABB5;
     color: white;
-    font-family: "Noto Sans JP 500";
+    font-family: "Noto Sans JP 300";
     line-height: 21.79px;
     font-size: 16px;
     width: 48px;
@@ -425,10 +436,14 @@
 }
 
 .content-span-text span{
-    font-family: "Inter";
-    font-weight: 540;
+    font-family: "Noto Sans JP 400";
     font-size: 16px;
     line-height: 28.8px;
+}
+
+.content-span-text span span{
+    font-family: "Inter";
+    font-weight: 600;
 }
 
 /* ---------------------- fifth ----------------------------------*/
@@ -447,10 +462,7 @@
 }
 
 .fifth-heading span{
-    width: 96px;
-    height: 33px;
-    font-family: "Noto Sans";
-    font-weight: 700;
+    font-family: "Noto Sans JP 700";
     font-size: 24px;
     line-height: 32.69px;
 }
@@ -486,8 +498,7 @@
 }
 
 .fifth-content-row{
-    font-family: "Noto Sans";
-    font-weight: 400;
+    font-family: "Noto Sans JP 400";
     font-size: 16px;
     line-height: 22px;
 }
@@ -533,14 +544,12 @@
 
 .faq-question-left span{
     font-family: "Noto Sans JP 400";
-    font-weight: 400;
     font-size: 16px;
     line-height: 27.2px;
 }
 
 .faq-answer span{
     font-family: "Noto Sans JP 400";
-    font-weight: 400;
     font-size: 16px;
     line-height: 27.2px;
 }
@@ -571,8 +580,7 @@
     color: white;
     border-radius: 50%;
     margin-right: 30px;
-    font-weight: 400;
-    font-family: "Noto Sans";
+    font-family: "Noto Sans JP 400";
     font-size: 36px;
     flex-shrink: 0;
 }
@@ -585,8 +593,7 @@
     color:#0FABB5;
     border-radius: 50%;
     margin-right: 30px;
-    font-weight: 400;
-    font-family: "Noto Sans";
+    font-family: "Noto Sans JP 400";
     font-size: 36px;
     flex-shrink: 0;
 }
@@ -611,8 +618,7 @@
 
 .last-para-text span{
     width: 181px;
-    font-family: "Noto Sans JP";
-    font-weight: 400;
+    font-family: "Noto Sans JP 400";
     font-size: 12px;
     line-height: 17.38px;
     color:white;
