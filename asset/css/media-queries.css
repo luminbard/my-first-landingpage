@@ -392,8 +392,7 @@
     }
 
     .designer-tip p{
-        font-family: 'Inter', sans-serif;
-        font-weight: 400;
+        font-family: 'Noto Sans JP 400';
         font-size: 16px;
         line-height: 28.8px;
         text-align: center;
@@ -401,7 +400,7 @@
     }
     
     .designer-tip p span { 
-        font-family: 'Inter', sans-serif;
+        font-family: 'Inter';
         font-weight: 700;
     }
 
@@ -414,11 +413,10 @@
     }
 
     .first-step-text{
-        font-weight: 400;
         font-size: 28px;
         line-height: 28px;
         counter-reset: black;
-        font-family: "Noto Sans";
+        font-family: "Noto Sans JP 400";
         padding-left: 13px;
     }
 
@@ -561,9 +559,8 @@
  
      .second-item span{
          margin-left: 8px;
-         font-family: "Inter";
+         font-family: "Noto Sans JP 400";
          line-height: 19.6px;
-         font-weight: 540;
          font-size: 14px;
          width: 278px;
      }
@@ -581,11 +578,14 @@
          margin-top: 36px;
          color:white;
          font-family: "Noto Sans JP 700";
-         font-weight: 700;
          font-size: 18px;
          line-height: 27px;
-         width: 204px;
+         width: 194px;
      }  
+
+     .second-para-text span span{
+        font-family: "Noto Sans";
+     }
 
     .third-para{
         height: 1379px;
@@ -641,8 +641,6 @@
     }
 
     .part-heading span{
-        font-family: "Noto Sans";
-        font-weight: 700;
         font-size: 16px;
         line-height: 21.79px;
     }
@@ -652,8 +650,6 @@
     }
     
     .part-content span{
-        font-family: "Noto Sans";
-        font-weight: 400;
         font-size: 14px;
         line-height: 23.8px;
     }
@@ -681,6 +677,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .content-span-text span br{
+        display: block;
     }
 
     #second-fourth-item{
@@ -722,8 +722,12 @@
     .content-span-text span{
         font-size: 14px;
         line-height: 25.2px;
+        white-space: nowrap
     }
 
+    #first-content-span-text{
+        white-space:initial;
+    }
     .content-span-text{
         margin-bottom: 24px;
     }

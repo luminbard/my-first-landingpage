@@ -397,6 +397,9 @@
     height: 330px;
 }
 
+.content-span-text span br{
+    display: none;
+}
 .heading p{
     font-family: "Noto Sans JP 700";
     font-size: 24px;
