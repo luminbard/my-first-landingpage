@@ -24,10 +24,11 @@ document.addEventListener("DOMContentLoaded", () => {
 document.querySelectorAll('.faq-item').forEach(item => {
     const btn = item.querySelector('.toggle-btn');
     const answer = item.querySelector('.faq-answer');
+   
     
     item.addEventListener('click', () => {
+        item.classList.toggle('expanded');
         const isVisible = answer.style.display === 'flex';
-        
         if (!isVisible) {
             answer.style.display = 'flex';
             btn.classList.add('rotate');
