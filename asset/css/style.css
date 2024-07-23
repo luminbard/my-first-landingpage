@@ -65,7 +65,6 @@
     height: 16px;
     font-size: 16px;
     line-height: 16px;
-    gap: 8px;
 }
 
 .hamburger {
@@ -185,7 +184,6 @@
 .second-item span{
     margin-left: 8.78px;
     line-height: 20.8px;
-    font-size: 16px;
 }
 
 .second-item span span{
@@ -257,7 +255,6 @@
 }
 
 .part-heading span{
-    font-size: 16px;
     line-height: 21.79px;
 }
 
@@ -295,7 +292,6 @@
 
 #apply{
     font-family: "Noto Sans JP 300";
-    font-size: 16px;
     line-height: 16px;
     color: white;
     background-color: #F13C68;
@@ -337,7 +333,6 @@
 
 .small-heading span{
     color:black;
-    font-size: 16px;
     line-height: 21.79px;
     width:160px;
     height: 22px;
@@ -414,7 +409,6 @@
     color: white;
     font-family: "Noto Sans JP 300";
     line-height: 21.79px;
-    font-size: 16px;
     width: 48px;
     height: 26px;
 }
@@ -423,12 +417,10 @@
     margin-left: 10px;
     font-family: "Noto Sans JP 400";
     line-height: 21.79px;
-    font-size: 16px;
 }
 
 .content-span-text span{
     font-family: "Noto Sans JP 400";
-    font-size: 16px;
     line-height: 28.8px;
 }
 
@@ -490,7 +482,6 @@
 
 .fifth-content-row{
     font-family: "Noto Sans JP 400";
-    font-size: 16px;
     line-height: 22px;
 }
 
@@ -535,13 +526,11 @@
 
 .faq-question-left span{
     font-family: "Noto Sans JP 400";
-    font-size: 16px;
     line-height: 27.2px;
 }
 
 .faq-answer span{
     font-family: "Noto Sans JP 400";
-    font-size: 16px;
     line-height: 27.2px;
     padding-right: 50px;
 }

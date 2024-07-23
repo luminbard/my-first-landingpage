@@ -78,7 +78,6 @@
     .part-heading span{
         font-family: "Noto Sans";
         font-weight: 700;
-        font-size: 16px;
         line-height: 21.79px;
     }
     
@@ -178,7 +177,6 @@
 
     .content-row-item{  
         line-height: 28.8px;
-        font-size: 16px;
     }
 
     .content-row-text{
@@ -368,7 +366,6 @@
     }
 
     .text span{
-        font-size: 16px;
         line-height: 27.2px;
     }
 
@@ -395,7 +392,6 @@
 
     .designer-tip p{
         font-family: 'Noto Sans JP 400';
-        font-size: 16px;
         line-height: 28.8px;
         text-align: center;
         width: 290px;   
@@ -654,7 +650,6 @@
     }
 
     .part-heading span{
-        font-size: 16px;
         line-height: 21.79px;
     }
     
@@ -751,7 +746,6 @@
 
     .content-row-item{  
         line-height: 28.8px;
-        font-size: 16px;
     }
 
     .content-row-text{
